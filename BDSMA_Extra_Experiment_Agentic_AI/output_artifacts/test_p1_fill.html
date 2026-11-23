@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    @page { size: A4 portrait; margin: 15mm 18mm 15mm 18mm; }
+    * { box-sizing: border-box; }
+    body { font-family: 'Times New Roman', Times, Georgia, serif; font-size: 10.5pt; line-height: 1.35; color: #111; margin: 0; padding: 0; }
+    .page { box-sizing: border-box; }
+    h1.doc-title { text-align: center; font-size: 14pt; font-weight: bold; margin: 0 0 16px 0; }
+    h2.section-title { font-size: 11.5pt; font-weight: bold; margin: 10px 0 5px 0; }
+    p { margin: 0 0 8px 0; text-align: justify; }
+    ol { margin: 4px 0 8px 0; padding-left: 20px; }
+    li { margin-bottom: 6px; line-height: 1.32; text-align: justify; }
+</style>
+</head>
+<body>
+<div class='page' id='p1'>
+    <h1 class='doc-title'>Extra Experiment</h1>
+    <p><strong>Aim:</strong> To design, implement, and evaluate an AI-based Startup Problem Discovery Agent using authentic Reddit discussions that continuously ingests real-world conversations, extracts latent customer pain points, clusters them into semantic opportunity spaces, quantifies market urgency and opportunity scores, and synthesizes Lean Startup validation hypotheses and competitive teardowns using Google Gemini 3.5 Flash.</p>
+    
+    <h2 class='section-title'>Theory:</h2>
+    <p>Modern market research is rapidly evolving from static, scheduled surveys toward continuous computational social listening. Consumer forums such as Reddit, Hacker News, and specialized digital communities contain rich, unprompted expressions of consumer friction, software inadequacies, and unmet operational needs. Traditional methodologies—such as consumer focus groups and manual questionnaires—suffer from acute observer bias, high monetary cost, and substantial latency between market changes and analysis. In contrast, computational social listening leverages unstructured natural language processing to detect authentic consumer sentiments at scale.</p>
+    
+    <p>Agentic Artificial Intelligence represents a paradigm shift where autonomous LLM-driven agents decompose complex research workflows into specialized cognitive modules. In this experiment, an autonomous multi-agent pipeline is constructed to analyze authentic professional discussions from online career communities (such as r/careerguidance). Unlike static sentiment classifiers, an agentic framework maintains state across ingestion, semantic parsing, clustering, quantitative ranking, and strategic hypothesis formulation without human intervention.</p>
+
+    <p>Unstructured discussion threads from online career communities provide high-signal customer intent data. Job seekers, career switchers, and professionals frequently articulate exact points of failure in existing tooling—ranging from automated resume screening rejection to expensive coding bootcamps lacking placement accountability. By systematically mining these narratives, the agent isolates authentic market demand and quantifies willingness-to-pay signals.</p>
+    
+    <p>The system consists of the following seven core components:</p>
+    <ol>
+        <li><strong>Social Media Ingestion & Data Hygiene Engine:</strong> Streams authentic Reddit submissions, discussion threads, upvote counts, and comment metrics via public APIs. Normalizes raw conversational text by removing markdown artifacts, automated bot announcements, and promotional spam while preserving authentic human dialogue.</li>
+        <li><strong>LLM-Based Pain Point Extraction (Gemini 3.5 Flash):</strong> Uses Google Gemini 3.5 Flash with strict JSON schema enforcement to parse colloquial complaints into structured problem entities, assigning an emotional severity rating (1.0 to 5.0), identifying existing makeshift workarounds, and detecting latent willingness-to-pay signals.</li>
+        <li><strong>Semantic Vectorization & Unsupervised Clustering:</strong> Converts extracted problem statements into high-dimensional numerical feature spaces using Term Frequency-Inverse Document Frequency (TF-IDF) with sublinear term scaling. Applies K-Means clustering (k=3) to automatically segment disparate individual grievances into coherent market niches.</li>
+        <li><strong>Quantitative Opportunity Scoring & Prioritization:</strong> Implements a multi-criteria mathematical scoring framework integrating cluster frequency, average emotional severity, and social engagement volume (upvotes and comment depth) into a standardized viability score (0 to 100) to prioritize high-leverage venture spaces.</li>
+        <li><strong>Lean Startup Hypothesis Synthesis:</strong> Prompts the LLM to formulate falsifiable problem-solution hypotheses, core minimum viable product (MVP) specifications, and unique value propositions (UVPs) for top-ranked market opportunities, bridging social listening with venture design.</li>
+        <li><strong>Competitor Flaw Teardown & Mom-Test Protocol:</strong> Conducts systematic vulnerability analysis on incumbent solutions and synthesizes non-leading, behavior-oriented customer discovery interview questions modeled after the Mom Test framework to validate demand without introducing confirmation bias.</li>
+        <li><strong>Analytical Visualizations & Interactive Dashboard:</strong> Generates publication-grade distribution graphics (cluster volume, severity vs. engagement, and opportunity rankings) and serves an interactive Streamlit web dashboard for real-time exploratory parameter tuning.</li>
+    </ol>
+</div>
+</body>
+</html>

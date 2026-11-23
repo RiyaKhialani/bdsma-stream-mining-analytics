@@ -1,0 +1,42 @@
+{
+  "protocols": [
+    {
+      "protocol_id": "USB_PD_3.0",
+      "full_name": "USB Power Delivery 3.0",
+      "max_voltage": 20.0,
+      "max_current": 5.0,
+      "max_wattage": 100.0,
+      "requires_connector": "USB-C",
+      "requires_emarker_above_current": 3.0,
+      "governing_body": "USB-IF"
+    },
+    {
+      "protocol_id": "PPS",
+      "full_name": "Programmable Power Supply",
+      "max_voltage": 21.0,
+      "max_current": 5.0,
+      "max_wattage": 105.0,
+      "requires_connector": "USB-C",
+      "governing_body": "USB-IF"
+    },
+    {
+      "protocol_id": "Qi2",
+      "full_name": "Qi v2.0 Magnetic Wireless Standard",
+      "max_wattage": 15.0,
+      "magnetic_alignment": true,
+      "governing_body": "Wireless Power Consortium (WPC)"
+    },
+    {
+      "protocol_id": "QC_3.0",
+      "full_name": "Qualcomm Quick Charge 3.0",
+      "max_wattage": 18.0,
+      "governing_body": "Qualcomm"
+    }
+  ],
+  "rules": [
+    "E-marker chip is mandatory for any USB-C cable delivering greater than 3.0 Amperes (60W).",
+    "Apple iPhone 15 Pro negotiates max 27W via 9V/3A; supplying higher wattage does not exceed 27W.",
+    "Samsung Galaxy S24 Ultra requires PPS with 10V/4.5A to achieve 45W Super Fast Charging 2.0.",
+    "USB-A legacy ports physically cannot deliver USB-PD 3.0 or PPS standards."
+  ]
+}

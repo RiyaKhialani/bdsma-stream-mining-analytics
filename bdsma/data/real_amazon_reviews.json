@@ -1,0 +1,157 @@
+[
+  {
+    "review_id": "REV_001",
+    "asin": "B08T5QN2TR",
+    "reviewer_id": "U_TECH_AUDITOR",
+    "reviewer_name": "Marcus Vance",
+    "rating": 5,
+    "verified_purchase": true,
+    "timestamp": "2024-03-15T10:14:20Z",
+    "summary": "Charges MacBook and iPhone 15 simultaneously with no throttling",
+    "review_text": "Verified with a Power-Z KM003C hardware meter. Successfully negotiates 20V 3.25A on my laptop and 9V 3A (27W) on my iPhone 15 Pro. The GaN thermals remain below 58 degrees Celsius under full load. Excellent build.",
+    "aspects": {
+      "charging_speed": 1.0,
+      "compatibility": 1.0,
+      "thermals": 1.0,
+      "build_quality": 1.0
+    }
+  },
+  {
+    "review_id": "REV_002",
+    "asin": "B0CQ2B3X6F",
+    "reviewer_id": "U_TECH_AUDITOR",
+    "reviewer_name": "Marcus Vance",
+    "rating": 5,
+    "verified_purchase": true,
+    "timestamp": "2024-03-20T14:32:11Z",
+    "summary": "Full 45W PPS charging requires specific 5A cable",
+    "review_text": "To get the blue 'Super Fast Charging 2.0' circle on S24 Ultra you must have both a PPS 45W charger and a 5A e-Marker cable. Standard 3A cables cap it at 25W. Great phone, camera zoom is remarkable.",
+    "aspects": {
+      "charging_speed": 1.0,
+      "compatibility": 0.8,
+      "camera": 1.0
+    }
+  },
+  {
+    "review_id": "REV_003",
+    "asin": "B093GG81W3",
+    "reviewer_id": "U_VERIFIED_ELECTRO",
+    "reviewer_name": "Sarah Jenkins",
+    "rating": 4,
+    "verified_purchase": true,
+    "timestamp": "2024-04-01T09:12:00Z",
+    "summary": "Legit 100W e-marker chip verified",
+    "review_text": "E-marker readout confirms 5A 20V EPR capability. Cable is stiff due to the heavy nylon braiding, but delivers full 96W to my MacBook Pro. Good price-to-performance ratio.",
+    "aspects": {
+      "compatibility": 1.0,
+      "durability": 0.7,
+      "value": 1.0
+    }
+  },
+  {
+    "review_id": "REV_004",
+    "asin": "B09G3F14G8",
+    "reviewer_id": "U_VERIFIED_ELECTRO",
+    "reviewer_name": "Sarah Jenkins",
+    "rating": 1,
+    "verified_purchase": true,
+    "timestamp": "2024-04-18T16:45:22Z",
+    "summary": "Dangerous fake 120W claims - burned USB port",
+    "review_text": "Complete scam. Claims 120W but power meter measured barely 15W before the plastic began melting. Does NOT support USB Power Delivery or PPS. The CE mark on casing has wrong typography (China Export fake). Do not buy!",
+    "aspects": {
+      "charging_speed": -1.0,
+      "safety": -1.0,
+      "compatibility": -1.0
+    }
+  },
+  {
+    "review_id": "REV_BOT_01",
+    "asin": "B09G3F14G8",
+    "reviewer_id": "U_COLLUSION_ALPHA",
+    "reviewer_name": "Alex K.",
+    "rating": 5,
+    "verified_purchase": false,
+    "timestamp": "2024-05-02T02:11:00Z",
+    "summary": "Changed my life amazing speed fast delivery",
+    "review_text": "Changed my life amazing speed fast delivery. Best charger I ever bought in my life. Works with every phone 120w super turbo speed 100% recommended seller arrived very fast.",
+    "aspects": {
+      "charging_speed": 1.0,
+      "delivery": 1.0
+    }
+  },
+  {
+    "review_id": "REV_BOT_02",
+    "asin": "B09G3F14G8",
+    "reviewer_id": "U_COLLUSION_BETA",
+    "reviewer_name": "David M.",
+    "rating": 5,
+    "verified_purchase": false,
+    "timestamp": "2024-05-02T03:45:10Z",
+    "summary": "Best charger ever arrived fast changed my life",
+    "review_text": "Best charger ever arrived fast changed my life. 120w charges everything instantly seller was friendly and item arrived fast 100% genuine.",
+    "aspects": {
+      "charging_speed": 1.0,
+      "delivery": 1.0
+    }
+  },
+  {
+    "review_id": "REV_BOT_03",
+    "asin": "B09G3F14G8",
+    "reviewer_id": "U_COLLUSION_GAMMA",
+    "reviewer_name": "Elena R.",
+    "rating": 5,
+    "verified_purchase": false,
+    "timestamp": "2024-05-02T05:20:30Z",
+    "summary": "Changed my life super fast 120w charge",
+    "review_text": "Changed my life super fast 120w charge. Arrived fast and packaging was good. Recommended to all friends and family.",
+    "aspects": {
+      "charging_speed": 1.0,
+      "packaging": 1.0
+    }
+  },
+  {
+    "review_id": "REV_BOT_04",
+    "asin": "B09G3F14G8",
+    "reviewer_id": "U_COLLUSION_DELTA",
+    "reviewer_name": "Sam W.",
+    "rating": 5,
+    "verified_purchase": false,
+    "timestamp": "2024-05-02T06:14:15Z",
+    "summary": "120w fast speed arrived fast changed my life",
+    "review_text": "120w fast speed arrived fast changed my life. Everything works great charges so fast unbelievable value.",
+    "aspects": {
+      "charging_speed": 1.0,
+      "value": 1.0
+    }
+  },
+  {
+    "review_id": "REV_BOT_05",
+    "asin": "B08T5QN2TR",
+    "reviewer_id": "U_COLLUSION_ALPHA",
+    "reviewer_name": "Alex K.",
+    "rating": 1,
+    "verified_purchase": false,
+    "timestamp": "2024-05-03T11:00:00Z",
+    "summary": "Competitor product terrible avoid",
+    "review_text": "Terrible product, overhyped and overpriced. My generic charger is way faster than this brand. Avoid at all costs.",
+    "aspects": {
+      "value": -1.0,
+      "charging_speed": -1.0
+    }
+  },
+  {
+    "review_id": "REV_BOT_06",
+    "asin": "B08T5QN2TR",
+    "reviewer_id": "U_COLLUSION_BETA",
+    "reviewer_name": "David M.",
+    "rating": 1,
+    "verified_purchase": false,
+    "timestamp": "2024-05-03T11:45:00Z",
+    "summary": "Bad quality competitor product",
+    "review_text": "Very bad quality broke immediately after 1 day. Buy cheaper alternatives instead do not waste your money.",
+    "aspects": {
+      "durability": -1.0,
+      "value": -1.0
+    }
+  }
+]
